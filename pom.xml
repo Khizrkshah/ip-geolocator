@@ -91,6 +91,13 @@
                 <artifactId>maven-site-plugin</artifactId>
                 <version>3.10.0</version>
             </plugin>
+            <plugin>
+                <groupId>fr.jcgay.maven.plugins</groupId>
+                <artifactId>buildplan-maven-plugin</artifactId>
+                <version>1.5</version>
+                <configuration>
+                </configuration>
+            </plugin>
         </plugins>
     </build>
     <reporting>
